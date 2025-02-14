@@ -1,0 +1,26 @@
+# Ignore Python cache and environment files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+.venv
+
+# Ignore model and cache directories
+.cache/
+models/
+*.gguf
+
+# Ignore VS Code settings
+.vscode/
+
+# Ignore Streamlit and logs
+.streamlit/
+logs/
+
+# Ignore large files
+*.mp4
+*.zip
+*.tar
+*.h5
+*.pth
